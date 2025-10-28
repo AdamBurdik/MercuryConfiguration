@@ -107,6 +107,7 @@ public interface MercuryTable {
 
 	Set<String> keySet();
 	Set<String> dottedKeySet();
+	Set<String> dottedKeySet(boolean includeTables);
 
 	default <T> @Nullable T get(@NotNull String dottedKey) {
 		//noinspection unchecked

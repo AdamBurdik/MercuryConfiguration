@@ -92,4 +92,9 @@ public class MercuryTomlTable implements MercuryTable {
 	public Set<String> dottedKeySet() {
 		return tomlTable.dottedKeySet();
 	}
+
+	@Override
+	public Set<String> dottedKeySet(boolean includeTables) {
+		return tomlTable.dottedKeySet(includeTables);
+	}
 }
