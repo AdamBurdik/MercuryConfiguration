@@ -1,4 +1,4 @@
-package me.adamix.mercury.configuration;
+package me.adamix.mercury.configuration.toml;
 
 import me.adamix.mercury.configuration.api.MercuryConfiguration;
 import me.adamix.mercury.configuration.api.exception.ParsingException;
