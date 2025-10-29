@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "me.adamix.mercury.configuration.toml"
-version = "0.0.1"
+version = "0.1.0"
 
 repositories {
 }
