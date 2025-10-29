@@ -1,3 +1,2 @@
 rootProject.name = "MercuryConfiguration"
-include("api")
-include("toml")
+include("api", "toml", "modules:jda")
